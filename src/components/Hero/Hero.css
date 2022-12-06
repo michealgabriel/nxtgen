@@ -1,0 +1,111 @@
+
+
+.hero {
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+    gap: 4.8rem;
+    /* padding: 8.2rem 16.8rem; */
+}
+
+
+.hero-textbox p {
+    padding: 0.8rem 0;
+}
+
+
+/* Type Anim styling */
+.hero-textbox .heading-primary {
+    display: inline-block;
+    width: 8ch;
+    white-space: nowrap;
+    animation: typing 3s steps(22), blink .12s step-end infinite alternate;
+    overflow: hidden;
+    border-right: 8px solid;
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}   
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+/* .wrapper {
+    display: flex;
+}
+.wrapper .dynamic-texts {
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    margin-left: 15px;
+}
+.dynamic-texts li {
+    list-style: none;
+    position: relative;
+    top: 0;
+    font-size: 5.8rem;
+    animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+    100%{
+        top: -240px;
+    }
+}
+.dynamic-texts span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 60px;
+}
+.dynamic-texts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    background: transparent;
+    border-left: 8px solid #fff;
+    animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+    40%, 60% {
+        left: calc(100% + 30px);
+    }
+    100% {
+        left: 0;
+    }
+} */
+
+
+.profession-pills {
+    display: flex;
+    gap: 2.4rem;
+}
+.profession-pills button:nth-child(1){
+    background-color: #003de6;
+}
+.profession-pills button:nth-child(2){
+    background-color: #ff9500;
+}
+
+
+.hero-imgbox img {
+    width: 100%;
+    transform: scaleX(-1);
+    filter: opacity(40%);
+    
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation-name: heroImgFloatAnim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes heroImgFloatAnim {
+    from {
+        transform: scaleX(-1) translateY(0);
+    }
+    to {
+        transform: scaleX(-1) translateY(30px);
+    }
+}

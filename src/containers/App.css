@@ -1,0 +1,25 @@
+
+.section-head {
+  background-image: url("../assets/abspace.jpg");
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.65);
+  /* animation-name: fadeSpaceAnim;
+  animation-duration: 4s; */
+
+}
+/* @keyframes fadeSpaceAnim {
+  from{box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0);}
+  to{box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.65);}
+} */
+
+.section-hero {
+  padding: 8.2rem 16.8rem;
+}
+
+.section-projects {
+  padding: 9.8rem 16.8rem;
+}
+
+.section-reachme {
+  padding: 4.9rem 16.8rem 18.8rem 16.8rem;
+}

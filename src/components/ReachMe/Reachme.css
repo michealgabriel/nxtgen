@@ -1,0 +1,18 @@
+
+
+.reachme-icons {
+    display: flex;
+    gap: 2.8rem;
+    margin-top: 4.6rem;
+}
+
+.reachme-icon {
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 5.8rem;
+    /* width: 6.8rem;
+    height: 6.8rem; */
+    color: #fff;
+    background-color: #3b1695;
+    cursor: pointer;
+}

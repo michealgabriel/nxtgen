@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# nxtgen
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My portfolio web app. Feel free to modify and re-use, ⭐ star the repo and follow if you love it.
+
 
 ## Available Scripts
 
