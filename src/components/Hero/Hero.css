@@ -16,11 +16,11 @@
 /* Type Anim styling */
 .hero-textbox .heading-primary {
     display: inline-block;
-    width: 8ch;
+    /* width: 8ch;
     white-space: nowrap;
     animation: typing 3s steps(22), blink .12s step-end infinite alternate;
     overflow: hidden;
-    border-right: 8px solid;
+    border-right: 8px solid; */
 }
 @keyframes typing {
   from {

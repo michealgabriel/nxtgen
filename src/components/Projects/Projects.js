@@ -1,4 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
+import { RelatedMap } from '@rsuite/icons';
 import './Projects.css';
 
 function Projects() {
@@ -54,11 +55,12 @@ function Projects() {
         </div>
         <hr/>
 
+        { 
+        isFetchingProjects ? <div className='center-text margin-top-md'><RelatedMap pulse style={{fontSize: '6.4rem'}} /></div> 
+        :
         <div className='project-cards grid grid--3-cols margin-top-md'>
 
             {
-                isFetchingProjects ? <div>Loading...</div> 
-                :
                 projectsData.filter((project) => {
                     if(filterValue === 'all') return true;
                     if(filterValue === 'frontend') return project.tag === 'frontend';
@@ -75,7 +77,7 @@ function Projects() {
                                 <h3 className='heading-tertiary'>{project.name}</h3>
                                 <p>{project.description}</p>
                                 <div>
-                                    <a href={project.gitrepo} target='_blank' rel='noreferrer' className='btn btn--outline hovered-state margin-right-sm'>Source Code</a>
+                                    {!project.gitrepo == '' ? <a href={project.gitrepo} target='_blank' rel='noreferrer' className='btn btn--outline hovered-state margin-right-sm'>Source Code</a> : null }
                                     <a href={project.preview} target='_blank' rel='noreferrer' className='btn btn--outline'>Preview</a>
                                 </div>
                             </div>
@@ -85,6 +87,7 @@ function Projects() {
             }
 
         </div>
+        }
     </div>
   )
 }

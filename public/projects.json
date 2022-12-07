@@ -2,6 +2,15 @@
     "projects": [
         {
             "id": 1,
+            "name": "Olas Wigs",
+            "image": "olaswigs.png",
+            "gitrepo": "",
+            "preview": "https://olaswigs.netlify.app",
+            "description": "A web application designed for a beauty and accessories company that majorly specializes on hair of various styles. Developed with react and supabase for customer information. Fully responsive on all platforms.",
+            "tag": "frontend"
+        },
+        {
+            "id": 2,
             "name": "Amazon",
             "image": "amazon.png",
             "gitrepo": "https://github.com/michealgabriel/amazon-clone",
@@ -10,7 +19,7 @@
             "tag": "frontend"
         },
         {
-            "id": 2,
+            "id": 3,
             "name": "Tinder",
             "image": "tinder.png",
             "gitrepo": "https://github.com/michealgabriel/tinder-app",
@@ -19,7 +28,7 @@
             "tag": "frontend"
         },
         {
-            "id": 3,
+            "id": 4,
             "name": "TikTok",
             "image": "tiktok.png",
             "gitrepo": "https://github.com/michealgabriel/tiktok-app",
@@ -28,7 +37,7 @@
             "tag": "frontend"
         },
         {
-            "id": 4,
+            "id": 5,
             "name": "Whatsapp",
             "image": "whatsapp.png",
             "gitrepo": "https://github.com/michealgabriel/whatsapp-clone",
@@ -37,12 +46,12 @@
             "tag": "fullstack-cloud"
         },
         {
-            "id": 5,
+            "id": 6,
             "name": "Omnifoods",
             "image": "omnifoods.png",
             "gitrepo": "https://github.com/michealgabriel/omnifoods",
             "preview": "https://omnifood-52b6d6.netlify.app",
-            "description": "A beatiful landing page design for a food company. Fully responsive on all devices. Developed with html and css only. ",
+            "description": "A beatiful landing page design for a food company. Fully responsive on all devices. Developed with html and css only.",
             "tag": "frontend"
         }
     ]
