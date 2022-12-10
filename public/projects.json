@@ -41,7 +41,7 @@
             "name": "Whatsapp",
             "image": "whatsapp.png",
             "gitrepo": "https://github.com/michealgabriel/whatsapp-clone",
-            "preview": "https://whatsapp-clone-client.web.app",
+            "preview": "https://wtsapp-clone.netlify.app/",
             "description": "Developed with React JS and material ui core for icon widgets and ripple effects. Uses Express Node JS for API's. Full functioning chat component that reads data from MongoDB and implemnts mongoose' Change Stream to listen for database changes, then uses Pusher service for publishing change events to the user interface for real time messages.",
             "tag": "fullstack-cloud"
         },
@@ -53,6 +53,15 @@
             "preview": "https://omnifood-52b6d6.netlify.app",
             "description": "A beatiful landing page design for a food company. Fully responsive on all devices. Developed with html and css only.",
             "tag": "frontend"
+        },
+        {
+            "id": 7,
+            "name": "AWS Filter Microservice",
+            "image": "imagefilter.png",
+            "gitrepo": "https://github.com/michealgabriel/image-filter-microservice",
+            "preview": "http://aws-image-filter.s3-website-us-west-2.amazonaws.com/",
+            "description": "An image filter microservice served directly from amazon's elastic beanstalk. Runs in a node js environment and uses typescript. Why elastic beanstalk (ebs)? This way i can easily make reference to the resources i need on a go, this project needs to run on an ec2 instance, with autoscaling groups configured, load balancing, cloudwatch metrics and more. Setting up these resources takes a while, but with ebs, you can get a project deployed and running in minutes. Check out it's codebase on my github.",
+            "tag": "fullstack-cloud"
         }
     ]
 }
