@@ -47,7 +47,7 @@ function Projects() {
         <div className='projects-headbar'>
             <h3 className='heading-tertiary'>Projects</h3>
 
-            <div className='filters'>  
+            <div className='filters' style={{display: 'none'}}>  
                 <button className='btn btn--outline-inverted' onClick={() => setFilterValue('all')}>All</button>
                 <button className='btn btn--outline-inverted' onClick={() => setFilterValue('frontend')}>Frontend</button>
                 <button className='btn btn--outline-inverted' onClick={() => setFilterValue('fullstack-cloud')}>Fullstack & Cloud</button>
@@ -67,6 +67,7 @@ function Projects() {
                     if(filterValue === 'fullstack-cloud') return project.tag === 'fullstack-cloud';
                     return false;
                 }).map(project => {
+                    if(project.hide) return false;
                     return (
                         <div className='project-card' key={project.id}>
                             <img src={`projectimages/${project.image}`} alt='project screenshot' />
@@ -77,7 +78,7 @@ function Projects() {
                                 <h3 className='heading-tertiary'>{project.name}</h3>
                                 <p>{project.description}</p>
                                 <div>
-                                    {!project.gitrepo == '' ? <a href={project.gitrepo} target='_blank' rel='noreferrer' className='btn btn--outline hovered-state margin-right-sm'>Source Code</a> : null }
+                                    {!project.gitrepo === '' ? <a href={project.gitrepo} target='_blank' rel='noreferrer' className='btn btn--outline hovered-state margin-right-sm'>Source Code</a> : null }
                                     <a href={project.preview} target='_blank' rel='noreferrer' className='btn btn--outline'>Preview</a>
                                 </div>
                             </div>

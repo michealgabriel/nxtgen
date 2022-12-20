@@ -7,7 +7,8 @@
             "gitrepo": "",
             "preview": "https://olaswigs.netlify.app",
             "description": "A web application designed for a beauty and accessories company that majorly specializes on hair of various styles. Developed with react and supabase for customer information. Fully responsive on all platforms.",
-            "tag": "frontend"
+            "tag": "frontend",
+            "hide": false
         },
         {
             "id": 2,
@@ -16,7 +17,8 @@
             "gitrepo": "https://github.com/michealgabriel/amazon-clone",
             "preview": "https://clone-46d7a.web.app/",
             "description": "Fully developed using React JS and Redux for global state management across various view components. Full app navigation routing with no reloads and global authentication state listener across secured routes. Also supports user authentication (SignUp/SignIn) using firebase.",
-            "tag": "frontend"
+            "tag": "frontend",
+            "hide": false
         },
         {
             "id": 3,
@@ -25,7 +27,8 @@
             "gitrepo": "https://github.com/michealgabriel/tinder-app",
             "preview": "https://tinder-app-clone.netlify.app",
             "description": "Developed with React JS, material ui core, and the react tinder card package for tinder like card dragging.",
-            "tag": "frontend"
+            "tag": "frontend",
+            "hide": false
         },
         {
             "id": 4,
@@ -34,7 +37,8 @@
             "gitrepo": "https://github.com/michealgabriel/tiktok-app",
             "preview": "https://tiktok-app.netlify.app",
             "description": "Tiktok's video interface design built with React.",
-            "tag": "frontend"
+            "tag": "frontend",
+            "hide": false
         },
         {
             "id": 5,
@@ -43,7 +47,8 @@
             "gitrepo": "https://github.com/michealgabriel/whatsapp-clone",
             "preview": "https://wtsapp-clone.netlify.app/",
             "description": "Developed with React JS and material ui core for icon widgets and ripple effects. Uses Express Node JS for API's. Full functioning chat component that reads data from MongoDB and implemnts mongoose' Change Stream to listen for database changes, then uses Pusher service for publishing change events to the user interface for real time messages.",
-            "tag": "fullstack-cloud"
+            "tag": "fullstack-cloud",
+            "hide": false
         },
         {
             "id": 6,
@@ -52,7 +57,8 @@
             "gitrepo": "https://github.com/michealgabriel/omnifoods",
             "preview": "https://omnifood-52b6d6.netlify.app",
             "description": "A beatiful landing page design for a food company. Fully responsive on all devices. Developed with html and css only.",
-            "tag": "frontend"
+            "tag": "frontend",
+            "hide": false
         },
         {
             "id": 7,
@@ -61,7 +67,8 @@
             "gitrepo": "https://github.com/michealgabriel/image-filter-microservice",
             "preview": "http://aws-image-filter.s3-website-us-west-2.amazonaws.com/",
             "description": "An image filter microservice served directly from amazon's elastic beanstalk. Runs in a node js environment and uses typescript. Why elastic beanstalk (ebs)? This way i can easily make reference to the resources i need on a go, this project needs to run on an ec2 instance, with autoscaling groups configured, load balancing, cloudwatch metrics and more. Setting up these resources takes a while, but with ebs, you can get a project deployed and running in minutes. Check out it's codebase on my github.",
-            "tag": "fullstack-cloud"
+            "tag": "fullstack-cloud",
+            "hide": true
         }
     ]
 }
