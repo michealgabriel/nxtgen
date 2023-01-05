@@ -78,7 +78,7 @@ function Projects() {
                                 <h3 className='heading-tertiary'>{project.name}</h3>
                                 <p>{project.description}</p>
                                 <div>
-                                    {!project.gitrepo === '' ? <a href={project.gitrepo} target='_blank' rel='noreferrer' className='btn btn--outline hovered-state margin-right-sm'>Source Code</a> : null }
+                                    {project.gitrepo !== '' ? <a href={project.gitrepo} target='_blank' rel='noreferrer' className='btn btn--outline hovered-state margin-right-sm'>Source Code</a> : null }
                                     <a href={project.preview} target='_blank' rel='noreferrer' className='btn btn--outline'>Preview</a>
                                 </div>
                             </div>
